@@ -1,31 +1,32 @@
 body {
-    font-family: $primary-fonts;
+    font-family: $main-font;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    max-width: $wrapper-width;
+    margin: 0 auto;
+    padding: $single-line $half-line;
+    background-color: $light;
+    color: $dark;
 
-    @media (max-width: 768px) {
-        font-size: 19px !important;
+    @media #{$bp} {
+        font-size: $widescreen-font-size;
     }
-    
+
 }
 
 input,
 textarea,
 button {
-    font-family: $secondary-fonts;
+    font-family: $main-font;
 }
 
-a {
-    transition: none;
-}
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-h1[class*='-title'],
-h2[class*='-title'],
-h3[class*='-title'] {
-    font-weight: bold;
-    font-family: $secondary-fonts;
+h6 {
+    font-weight: normal;
+    font-family: $secondary-font;
 }
