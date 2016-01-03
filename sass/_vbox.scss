@@ -1,0 +1,40 @@
+@media screen, projection {
+
+.vbox {
+    border: 1px solid $midgrey;
+    margin-bottom: $single-line;
+}
+
+.vbox-title {
+    font-size: $size-4;
+    padding: $quarter-line $half-line;
+    border-bottom: 1px solid $midgrey;
+    background-color: $lgrey;
+}
+
+.vbox p {
+    padding: 0.4em 0.8em;
+}
+
+.vbox ul,
+.vbox ol {
+    padding-top: $half-line;
+    margin-bottom: $single-line;
+    border-bottom: 1px dotted $lgrey;
+}
+
+.vbox li {
+    margin: 0;
+    padding: $quarter-line $half-line;
+    border-top: 1px dotted $lgrey;
+    list-style-type: none;
+}
+
+// Change how wordpress displays dates in category widgets
+
+.vbox .post-date {
+    display: inline;
+    color: $grey;
+}
+
+}

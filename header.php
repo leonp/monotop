@@ -22,7 +22,7 @@
 
 			</ul>
 
-			<p class="topbar"><a href="<?php get_site_url(); ?>"><img src="http://0.gravatar.com/avatar/f61286e14191d9a0b75c6937056c28f7?s=192&d=mm&r=g" class="logo rounded" alt="Leon Paternoster" title="Go to the home page"></a></p>
+			<p class="topbar text-center"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="http://0.gravatar.com/avatar/f61286e14191d9a0b75c6937056c28f7?s=192&d=mm&r=g" class="logo rounded" alt="Leon Paternoster" title="Go to the home page"></a></p>
 
 		</header>
 

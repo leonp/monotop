@@ -1,0 +1,40 @@
+@media screen, projection {
+
+.sub-nav:before,
+.sub-nav:after {
+    content: "";
+    display: block;
+}
+
+.sub-nav:after {
+    clear: both;
+}
+
+.sub-nav {
+    zoom: 1;
+}
+
+.sub-nav {
+    margin: -2px 0 -8px 0;
+    padding: $quarter-line 0;
+}
+
+.sub-nav li {
+    display: inline;
+    font-size: $size-3;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+.sub-nav li a {
+    float: left;
+    padding: $half-line;
+}
+
+.sub-nav li.current_page_item a,
+.sub-nav li a:hover {
+    background-color: $light;
+    color: $dark;
+}
+
+}

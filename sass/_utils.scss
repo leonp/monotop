@@ -1,0 +1,58 @@
+@media screen, projection {
+
+.accessibility,
+.hide {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+// include Foundation .flex-video class
+.constrain,
+.flex-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.333em;
+}
+
+.constrain iframe,
+.constrain object,
+.constrain embed,
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+}

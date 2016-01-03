@@ -1,5 +1,5 @@
 WebFontConfig = {
-    google: { families: [ 'Roboto+Mono:400,400italic,700:latin' ] }
+    google: { families: [ 'PT+Serif:400,400italic,700,700italic:latin' ] }
     };
     (function() {
     var wf = document.createElement('script');

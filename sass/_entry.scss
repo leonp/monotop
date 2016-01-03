@@ -1,38 +1,43 @@
-.wp-post-image {
-    margin-top: -20px;
+@media screen, projection {
+
+.entry {
+    padding-bottom: $single-line;
 }
 
-.inside-article,
-.separate-containers .inside-article,
-.separate-containers .page-header {
+.entry-header {
+    padding-bottom: $line-and-a-half;
+    text-align: center;
+}
 
-    @media (max-width: 768px) {
-        padding: 40px 20px;
-    }
+.entry-title {
+    font-size: $size-8;
+    font-weight: bold;
+    font-style: italic;
+}
 
+.entry-meta {
+    margin-top: $single-line;
 }
 
 .entry-content {
+    padding-bottom: $half-line;
+    -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
 }
 
+.entry blockquote {
+    margin: $half-line $double-line;
+    padding-left: $half-line;
+    border-left: $quarter-line solid $lgrey;
+    font-size: $size-3;
+}
+
 .entry-content p,
+.entry-content ol,
 .entry-content ul,
-.entry-content ol {
-    margin-bottom: 0.75em;
-}
-
-.hentry a:hover,
-.hentry a:active,
-.hentry a:focus {
-    text-decoration: underline;
-    color: $corporate;
-}
-
-.entry-content blockquote {
-    font-size: $small-text;
-    font-style: normal;
+.entry-content dd {
+    margin-bottom: $half-line;
 }
 
 .entry-content h1,
@@ -42,25 +47,18 @@
 .entry-content h5,
 .entry-content h6,
 .entry-content dt {
-    line-height: 1.2em;
-    margin: 0;
-    padding: 0.75em 0 0.375em 0;
+    padding: $half-line 0 $quarter-line 0;
 }
 
-.entry-content h3 {
-    font-size: 24px;
+.entry-content h1,
+.entry-content h2 {
+    font-size: $size-4;
 }
 
-.wp-caption .wp-caption-text {
-    font-size: $small-text;
-    font-family: $secondary-fonts;
+.entry-content h1,
+.entry-content dt {
+    font-size: $size-4;
 }
 
-.entry-meta {
-    font-family: $secondary-fonts;
-}
 
-.cat-links a,
-.comments-link a {
-    padding-left: 6px;
 }

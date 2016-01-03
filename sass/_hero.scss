@@ -1,0 +1,45 @@
+@media screen, projection {
+
+.hero-splash {
+    position: relative;
+    margin-bottom: $single-line;
+    margin-top: -$double-line;
+}
+
+.hero-splash-text {
+    position: absolute;
+    bottom: $half-line;
+    right: 0;
+}
+
+.hero-splash-text p {
+    padding: $eighth-line $half-line;
+    font-size: $size-3;
+    background-color: $dark;
+    opacity: 0.9;
+    color: $light;
+}
+
+.hero-splash-text-home p {
+    background-color: $corporate;
+}
+
+.hero-splash-in-entry {
+    margin-top: 0;
+}
+
+.hero-splash-in-entry-text {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-splash-in-entry-text p {
+    background-color: $light;
+    opacity: 1;
+    color: $dark;
+    padding-left: 0;
+    font-style: italic;
+}
+
+}

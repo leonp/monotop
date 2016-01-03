@@ -1,0 +1,25 @@
+@media screen, projection {
+
+.content-band {
+    padding-bottom: $double-line;
+}
+
+.content-band-title {
+    font-size: $size-4;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: $quarter-line;
+}
+
+.content-band-title p,
+.content-band-title ol,
+.content-band-title ul {
+    margin-bottom: $half-line;
+}
+
+.content-band .content-band .content-band-title {
+    color: $grey;
+}
+
+
+}

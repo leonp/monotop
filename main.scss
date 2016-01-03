@@ -2,8 +2,8 @@
 
 
 // Fonts
-$main-font: 'Input Sans', 'Roboto Mono', monospace;
-$secondary-font: 'Input Sans', 'Roboto Mono', monospace;
+$main-font: 'Times New Roman', 'PT Serif', serif;
+$secondary-font: 'Times New Roman', 'PT Serif', serif;
 
 
 // Breakpoints
@@ -11,8 +11,8 @@ $bp: "screen and (min-width: 768px)";
 
 
 // Line heights, widths and margins
-$base-line-height: 1.7;
-$single-line: 1.7em;
+$base-line-height: 1.45;
+$single-line: 1.45em;
 $line-and-a-half: ($single-line * 1.5);
 $double-line: ($single-line * 2);
 $treble-line: ($single-line * 3);
@@ -22,8 +22,8 @@ $half-line: ($single-line / 2);
 $quarter-line: ($single-line / 4);
 $eighth-line: ($single-line / 8);
 $base-font-size: 100%;
-$widescreen-font-size: 106.75%;
-$wrapper-width: 46em;
+$widescreen-font-size: 118.75%;
+$wrapper-width: 30em;
 
 
 // Type scale (see http://type-scale.com/ minor third)
@@ -57,4 +57,10 @@ $secondary-blue: #0E82C0;
 
 // Import partials
 @import
-"sass/base"
+"sass/base",
+"sass/contentband",
+"sass/utils",
+"sass/typography",
+"sass/topbar",
+"sass/slot",
+"sass/entry"

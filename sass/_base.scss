@@ -1,3 +1,10 @@
+@media screen, projection {
+
+// Reset
+
+body, ul, ol, p, h1, h2, h3, h4, h5, h6, fieldset, dd, figure, figcaption, main { margin: 0; padding: 0; }
+article, aside, dialog, figure, figcaption, footer, header, hgroup, nav, section, main { display: block; }
+
 body {
     font-family: $main-font;
     font-size: $base-font-size;
@@ -14,6 +21,25 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: $link;
+}
+
+a:visited {
+    color: $visited;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: $hover;
+    text-decoration: underline;
+}
+
 input,
 textarea,
 button {
@@ -27,6 +53,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: normal;
     font-family: $secondary-font;
+    line-height: 1.2em;
+}
+
+img {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
 }
