@@ -1,28 +1,60 @@
 @charset "utf-8";
 
-// Variables
 
-$corporate: #E84100;
-$background: #EAE8E8;
-$heading-color: #888;
-
-$primary-fonts: freight-text-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
-$secondary-fonts: freight-sans-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
-
-$small-text: 0.85em;
-
-$line-height: 1.5em;
-$half-line: $line-height / 2;
-$quarter-line: $line-height / 4;
+// Fonts
+$main-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
+$secondary-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Breakpoints
+$bp: "screen and (min-width: 768px)";
+
+
+// Line heights, widths and margins
+$base-line-height: 1.7;
+$single-line: 1.7em;
+$line-and-a-half: ($single-line * 1.5);
+$double-line: ($single-line * 2);
+$treble-line: ($single-line * 3);
+$quadruple-line: ($single-line * 4);
+$three-quarter-line: ($single-line * 0.75);
+$half-line: ($single-line / 2);
+$quarter-line: ($single-line / 4);
+$eighth-line: ($single-line / 8);
+$base-font-size: 106.75%;
+$widescreen-font-size: 125%;
+$min-wrapper-width: 1100px;
+
+
+// Type scale (see http://type-scale.com/ minor third)
+$size-1: 0.579em;
+$size-2: 0.694em;
+$size-3: 0.833em;
+$size-4: 1em;
+$size-5: 1.2em;
+$size-6: 1.44em;
+$size-7: 1.728em;
+$size-8: 2.074em;
+
+
+// Colours
+$black: #000;
+$dark: #444;
+$light: #FFF;
+$highlight: #265A8E;
+$grey: #888;
+$lgrey: #F1F1F1;
+$midgrey: #DFDFDF;
+$link: #0282F9;
+$visited: #46A4FC;
+$active: #02CAF7;
+$hover: #02CAF7;
+$code: #FCDF02;
+$background: #F7F7F7;
+$corporate: #3B1B53;
+$secondary-blue: #0E82C0;
+
+
+// Import partials
 @import
-    "sass/base",
-    "sass/entry",
-    "sass/layout",
-    "sass/branding",
-    "sass/nav",
-    "sass/widget",
-    "sass/pagination"
-;
+"sass/base"
