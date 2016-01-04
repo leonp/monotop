@@ -4,7 +4,7 @@
 
 		<section class="content-band">
 
-			<h1 class="content-band-title">About</h1>
+			<h1 class="content-band-title hide">About</h1>
 
 			<div class="content-band-content">
 
