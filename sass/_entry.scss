@@ -29,7 +29,6 @@
 .entry blockquote {
     margin: $half-line $double-line;
     padding-left: $half-line;
-    border-left: $quarter-line solid $lgrey;
     font-size: $size-3;
 }
 
@@ -48,16 +47,42 @@
 .entry-content h6,
 .entry-content dt {
     padding: $half-line 0 $quarter-line 0;
+    text-align: center;
+    font-style: italic;
 }
 
 .entry-content h1,
 .entry-content h2 {
+    font-size: $size-6;
+}
+
+.entry-content h3,
+.entry-content dt {
     font-size: $size-4;
 }
 
-.entry-content h1,
-.entry-content dt {
-    font-size: $size-4;
+.entry-content h4 {
+    font-size: $size-3;
+}
+
+.entry-content hr {
+    border: 1px dotted $lgrey;
+    margin: $single-line 0;
+}
+
+.wp-caption {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    padding-bottom: $single-line;
+}
+
+.wp-caption-text {
+    margin-bottom: 0;
+    font-size: $size-3;
+    color: $grey;
+    font-style: italic;
+    text-align: center;
 }
 
 

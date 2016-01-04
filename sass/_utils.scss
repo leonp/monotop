@@ -1,7 +1,8 @@
 @media screen, projection {
 
 .accessibility,
-.hide {
+.hide,
+.screen-reader-text {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px, 1px, 1px, 1px);

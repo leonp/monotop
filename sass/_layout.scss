@@ -1,36 +1,16 @@
 @media screen, projection {
 
-.wrapper {
-    padding: 0 $half-line;
-
-    @media #{$bp} {
-        max-width: $wrapper-width;
-    }
-
-    @media #{$nbp} {
-        min-width: $min-wrapper-width;
-    }
-
-    margin: 0 auto;
-}
-
-.inner-wrapper {
-
-    @media #{$bp} {
-        max-width: $inner-wrapper-width;
-    }
-
-    margin: 0 auto;
-    padding: 0 $half-line;
-}
 
 #content {
     margin-bottom: $single-line;
 }
 
 #footer {
-    border-top: 1px solid $lgrey;
     padding: $half-line 0;
+    font-size: $size-3;
+    text-align: center;
+    text-transform: lowercase;
+    font-variant: small-caps;
 }
 
 }

@@ -2,8 +2,8 @@
 
 
 // Fonts
-$main-font: 'Times New Roman', 'PT Serif', serif;
-$secondary-font: 'Times New Roman', 'PT Serif', serif;
+$main-font: freight-text-pro, 'Times New Roman', 'PT Serif', serif;
+$secondary-font: freight-text-pro, 'Times New Roman', 'PT Serif', serif;
 
 
 // Breakpoints
@@ -21,8 +21,8 @@ $three-quarter-line: ($single-line * 0.75);
 $half-line: ($single-line / 2);
 $quarter-line: ($single-line / 4);
 $eighth-line: ($single-line / 8);
-$base-font-size: 100%;
-$widescreen-font-size: 118.75%;
+$base-font-size: 112.5%;
+$widescreen-font-size: 137.5%;
 $wrapper-width: 30em;
 
 
@@ -63,4 +63,7 @@ $secondary-blue: #0E82C0;
 "sass/typography",
 "sass/topbar",
 "sass/slot",
-"sass/entry"
+"sass/entry",
+"sass/inline-nav",
+"sass/layout",
+"sass/pagination"

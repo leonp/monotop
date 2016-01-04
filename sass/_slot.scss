@@ -4,9 +4,15 @@
     padding: $half-line 0;
 }
 
+.slot-header {
+    padding-bottom: $eighth-line;
+}
+
 .slot-title {
-    font-size: $size-4;
+    font-size: $size-5;
     margin-bottom: $eighth-line;
+    font-weight: normal;
+    font-style: italic;
 }
 
 .slot-excerpt {

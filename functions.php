@@ -27,4 +27,41 @@ function monotop_custom_theme_suppport() {
 add_action( 'after_setup_theme', 'monotop_custom_theme_suppport' );
 
 
+// Add nav menu
+
+function monotop_nav_menu() {
+
+  register_nav_menu('nav-menu',__( 'Navigation menu' ));
+
+}
+
+add_action( 'init', 'monotop_nav_menu' );
+
+
+// Remove first word from cat titles
+
+// Remove prefixes from archive transliterator_create_from_rules
+
+add_filter( 'get_the_archive_title', function ($title) {
+
+    if ( is_category() ) {
+
+            $title = single_cat_title( '', false );
+
+        } elseif ( is_tag() ) {
+
+            $title = single_tag_title( '', false );
+
+        } elseif ( is_author() ) {
+
+            $title = '<span class="vcard">' . get_the_author() . '</span>' ;
+
+        }
+
+    return $title;
+
+});
+
+
+
 ?>
